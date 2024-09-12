@@ -18,3 +18,13 @@ langchain_chroma
 streamlit
 langchain_groq
 langchain_core
+pydantic
+mysql-connector-python
+SQLAlchemy
+validators
+youtube_transcript_api
+unstructured
+pytube
+numexpr
+huggingface_hub
+gradio
