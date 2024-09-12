@@ -19,7 +19,7 @@ load_dotenv()
 
 os.environ['HF_TOKEN']=os.getenv("HF_TOKEN")
 embeddings=HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-st.secrets["HF_TOKEN","GROQ_API_KEY"]
+#st.secrets["HF_TOKEN","GROQ_API_KEY"]
 
 ## set up Streamlit 
 st.title("Conversational RAG With PDF uplaods and chat history")
